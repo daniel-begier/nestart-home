@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop The Art Collection — Nestart Home Malta</title>
+  <meta name="description" content="Shop Valletta line art, Gozo sunset and Mediterranean abstract posters in A4, A3 and 50×70 cm, with optional frames. Preview every print at true scale with the Virtual Gallery Wall Customiser.">
+  <meta property="og:title" content="The Art Collection — Nestart Home">
+  <meta property="og:description" content="Find the perfect piece for your room, then preview it on a Maltese stone wall before you buy.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#F4EFE7">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/art.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="topbar"><p>Free delivery across Malta &amp; Gozo on orders over €50<span aria-hidden="true">/</span>Packed by hand in Malta</p></div>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="logo" href="index.html" aria-label="Nestart Home, home page">
+        <svg viewBox="0 0 22 28" aria-hidden="true"><path d="M2.5 27V11a8.5 8.5 0 0 1 17 0v16" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="11" cy="17.5" r="3.2" fill="#B8643E"/><path d="M0 27h22" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span class="logo__word">Nestart<small>Home</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="shop.html" aria-current="page">Shop</a>
+        <a href="about.html">About &amp; Contact</a>
+      </nav>
+      <div class="header__actions">
+        <button class="cart-btn" type="button" data-open-cart aria-label="Open cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 8.5h14l-1.1 12H6.1L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg>
+          <span class="cart-btn__label">Cart</span>
+          <span class="cart-count" data-cart-count hidden>0</span>
+        </button>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mmenu"><span></span><span></span><span class="sr-only">Menu</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head wrap" aria-labelledby="shop-title">
+      <div class="meta-row">
+        <span class="eyebrow">Shop</span>
+        <span class="eyebrow hide-sm">Collection N°01 · 3 prints</span>
+        <span class="eyebrow">Prices incl. VAT</span>
+      </div>
+      <h1 class="page-title display" id="shop-title">The Art <em>Collection</em></h1>
+      <div class="page-head__row">
+        <p class="lead">Find the perfect piece for your room.</p>
+        <ul class="perks">
+          <li><b>Free delivery</b> over €50 across Malta &amp; Gozo</li>
+          <li><b>Frame-ready</b> in A4, A3 and 50×70 cm</li>
+          <li><a href="#customiser"><b>Not sure about size?</b> Preview it on a wall ↓</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap products" aria-label="Products">
+      <!-- 01 -->
+      <article class="product" id="valletta" data-product="valletta" data-reveal>
+        <div class="product__media wall--plaster">
+          <span class="product__badge">Bestseller</span>
+          <span class="product__scale" data-scale></span>
+          <div class="print" data-art="valletta" data-frame="none"></div>
+          <div class="product__props" aria-hidden="true"></div>
+        </div>
+        <div class="product__info">
+          <div class="product__row"><span>N° 01</span><span>Line art · Valletta</span></div>
+          <h2 class="product__name">Valletta Architecture Line Art</h2>
+          <p class="product__desc">Domes, a spire and wooden gallariji above the bastions, traced in one fine line beneath a terracotta sun.</p>
+          <div class="field">
+            <label class="field__label" for="size-valletta">Size</label>
+            <div class="select"><select id="size-valletta" data-size>
+              <option value="a4" selected>A4 · 21 × 29.7 cm</option>
+              <option value="a3">A3 · 29.7 × 42 cm (+€8)</option>
+              <option value="b2">50 × 70 cm (+€18)</option>
+            </select></div>
+          </div>
+          <fieldset class="field">
+            <legend>Frame add-on <span data-frame-price></span></legend>
+            <div class="frames">
+              <label class="opt"><input type="radio" name="frame-valletta" value="none" checked><span><i class="fsw fsw--none"></i>None</span></label>
+              <label class="opt"><input type="radio" name="frame-valletta" value="oak"><span><i class="fsw fsw--oak"></i>Oak</span></label>
+              <label class="opt"><input type="radio" name="frame-valletta" value="black"><span><i class="fsw fsw--black"></i>Black</span></label>
+              <label class="opt"><input type="radio" name="frame-valletta" value="white"><span><i class="fsw fsw--white"></i>White</span></label>
+            </div>
+          </fieldset>
+          <div class="product__buy">
+            <p class="price"><small>Price</small><span data-price>€22.00</span></p>
+            <button class="btn" type="button" data-add>Add to cart <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          </div>
+          <button class="link-arrow product__preview" type="button" data-preview>Preview on a wall</button>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="product" id="gozo" data-product="gozo" data-reveal style="--d:.1s">
+        <div class="product__media wall--limestone">
+          <span class="product__badge">Local favourite</span>
+          <span class="product__scale" data-scale></span>
+          <div class="print" data-art="gozo" data-frame="none"></div>
+          <div class="product__props" aria-hidden="true"></div>
+        </div>
+        <div class="product__info">
+          <div class="product__row"><span>N° 02</span><span>Mediterranean · Gozo</span></div>
+          <h2 class="product__name">Gozo Sunset Minimalist Print</h2>
+          <p class="product__desc">Dwejra at 19:42. Flat bands of apricot sky and a red sun sinking between the cliffs and Fungus Rock.</p>
+          <div class="field">
+            <label class="field__label" for="size-gozo">Size</label>
+            <div class="select"><select id="size-gozo" data-size>
+              <option value="a4" selected>A4 · 21 × 29.7 cm</option>
+              <option value="a3">A3 · 29.7 × 42 cm (+€8)</option>
+              <option value="b2">50 × 70 cm (+€18)</option>
+            </select></div>
+          </div>
+          <fieldset class="field">
+            <legend>Frame add-on <span data-frame-price></span></legend>
+            <div class="frames">
+              <label class="opt"><input type="radio" name="frame-gozo" value="none" checked><span><i class="fsw fsw--none"></i>None</span></label>
+              <label class="opt"><input type="radio" name="frame-gozo" value="oak"><span><i class="fsw fsw--oak"></i>Oak</span></label>
+              <label class="opt"><input type="radio" name="frame-gozo" value="black"><span><i class="fsw fsw--black"></i>Black</span></label>
+              <label class="opt"><input type="radio" name="frame-gozo" value="white"><span><i class="fsw fsw--white"></i>White</span></label>
+            </div>
+          </fieldset>
+          <div class="product__buy">
+            <p class="price"><small>Price</small><span data-price>€24.00</span></p>
+            <button class="btn" type="button" data-add>Add to cart <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          </div>
+          <button class="link-arrow product__preview" type="button" data-preview>Preview on a wall</button>
+        </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="product" id="blue" data-product="blue" data-reveal style="--d:.2s">
+        <div class="product__media wall--concrete">
+          <span class="product__badge">New in</span>
+          <span class="product__scale" data-scale></span>
+          <div class="print" data-art="blue" data-frame="none"></div>
+          <div class="product__props" aria-hidden="true"></div>
+        </div>
+        <div class="product__info">
+          <div class="product__row"><span>N° 03</span><span>Abstract · Blu</span></div>
+          <h2 class="product__name">Abstract Mediterranean Blue</h2>
+          <p class="product__desc">A deep-sea arch, a pale blue tide and a terracotta corner, cut-paper shapes in the colours of a Maltese summer.</p>
+          <div class="field">
+            <label class="field__label" for="size-blue">Size</label>
+            <div class="select"><select id="size-blue" data-size>
+              <option value="a4" selected>A4 · 21 × 29.7 cm</option>
+              <option value="a3">A3 · 29.7 × 42 cm (+€8)</option>
+              <option value="b2">50 × 70 cm (+€18)</option>
+            </select></div>
+          </div>
+          <fieldset class="field">
+            <legend>Frame add-on <span data-frame-price></span></legend>
+            <div class="frames">
+              <label class="opt"><input type="radio" name="frame-blue" value="none" checked><span><i class="fsw fsw--none"></i>None</span></label>
+              <label class="opt"><input type="radio" name="frame-blue" value="oak"><span><i class="fsw fsw--oak"></i>Oak</span></label>
+              <label class="opt"><input type="radio" name="frame-blue" value="black"><span><i class="fsw fsw--black"></i>Black</span></label>
+              <label class="opt"><input type="radio" name="frame-blue" value="white"><span><i class="fsw fsw--white"></i>White</span></label>
+            </div>
+          </fieldset>
+          <div class="product__buy">
+            <p class="price"><small>Price</small><span data-price>€26.00</span></p>
+            <button class="btn" type="button" data-add>Add to cart <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          </div>
+          <button class="link-arrow product__preview" type="button" data-preview>Preview on a wall</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- Digital innovation: Virtual Gallery Wall Customiser -->
+    <section class="section cz-section" id="customiser" aria-labelledby="cz-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Digital innovation</span>
+          <h2 class="h2" id="cz-title">Virtual Gallery Wall <em>Customiser</em></h2>
+          <p>Not sure what will work above your sofa? Preview every print, size and frame at true scale against typical Maltese stone walls, modern neutral interiors or a photo of your own room. What you see is what arrives.</p>
+        </div>
+
+        <ul class="cz-benefits">
+          <li><i>A</i><b>True-to-scale sizing</b><span>Every size is drawn next to a 160 cm sideboard, so you can see exactly how big an A4 or a 50×70 really is.</span></li>
+          <li><i>B</i><b>Malta-inspired walls</b><span>Switch between globigerina limestone, whitewashed plaster, micro-cement and a charcoal feature wall.</span></li>
+          <li><i>C</i><b>Your own wall, privately</b><span>Upload a photo of your room and drag the print into place. It never leaves your device.</span></li>
+        </ul>
+
+        <div class="cz" id="customiser-app">
+          <div class="cz__stage">
+            <div class="scene scene--cz" data-scene="cz" role="group" aria-label="Live, true-to-scale preview of your chosen print on a wall"></div>
+            <div class="cz__bar">
+              <p class="cz__caption" data-cz-caption aria-live="polite"></p>
+              <label class="toggle"><input type="checkbox" name="cz-dims" checked><span class="toggle__ui"></span>Measurements</label>
+            </div>
+            <div class="cz__photo-tools" data-photo-tools hidden>
+              <label>Print scale <input type="range" name="cz-zoom" min="0.4" max="3" step="0.05" value="1"></label>
+              <span class="muted">Drag the print, or use the arrow keys, to position it.</span>
+              <button type="button" class="link-arrow" data-photo-clear>Back to preset walls</button>
+            </div>
+          </div>
+
+          <div class="cz__panel">
+            <fieldset class="cz__group" data-art-group>
+              <legend><span>01</span> Artwork</legend>
+              <div class="cz__arts">
+                <label class="opt opt--art"><input type="radio" name="cz-art" value="valletta"><span><span class="art-thumb wall--plaster"><span class="print" data-art="valletta" data-frame="none" data-decorative></span></span>Valletta</span></label>
+                <label class="opt opt--art"><input type="radio" name="cz-art" value="gozo" checked><span><span class="art-thumb wall--plaster"><span class="print" data-art="gozo" data-frame="none" data-decorative></span></span>Gozo Sunset</span></label>
+                <label class="opt opt--art"><input type="radio" name="cz-art" value="blue"><span><span class="art-thumb wall--plaster"><span class="print" data-art="blue" data-frame="none" data-decorative></span></span>Med. Blue</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="cz__group">
+              <legend><span>02</span> Layout</legend>
+              <div class="seg">
+                <label class="opt"><input type="radio" name="cz-layout" value="single" checked><span>Single print</span></label>
+                <label class="opt"><input type="radio" name="cz-layout" value="trio"><span>Gallery trio</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="cz__group">
+              <legend><span>03</span> Wall</legend>
+              <div class="walls">
+                <label class="opt opt--wall"><input type="radio" name="cz-wall" value="limestone" checked><span><i class="wsw wall--limestone"></i>Limestone</span></label>
+                <label class="opt opt--wall"><input type="radio" name="cz-wall" value="plaster"><span><i class="wsw wall--plaster"></i>Plaster</span></label>
+                <label class="opt opt--wall"><input type="radio" name="cz-wall" value="concrete"><span><i class="wsw wall--concrete"></i>Micro-cement</span></label>
+                <label class="opt opt--wall"><input type="radio" name="cz-wall" value="charcoal"><span><i class="wsw wall--charcoal"></i>Charcoal</span></label>
+                <label class="opt opt--wall"><input type="file" name="cz-photo" accept="image/*" aria-label="Upload a photo of your own wall"><span><i class="wsw wsw--up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 16V5M7.5 9.5 12 5l4.5 4.5M5 15v4h14v-4"/></svg></i>Your wall</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="cz__group">
+              <legend><span>04</span> Size</legend>
+              <div class="seg">
+                <label class="opt"><input type="radio" name="cz-size" value="a4"><span>A4<small>21 × 29.7</small></span></label>
+                <label class="opt"><input type="radio" name="cz-size" value="a3"><span>A3<small>29.7 × 42</small></span></label>
+                <label class="opt"><input type="radio" name="cz-size" value="b2" checked><span>50 × 70<small>cm</small></span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="cz__group">
+              <legend><span>05</span> Frame</legend>
+              <div class="frames">
+                <label class="opt"><input type="radio" name="cz-frame" value="none"><span><i class="fsw fsw--none"></i>None</span></label>
+                <label class="opt"><input type="radio" name="cz-frame" value="oak" checked><span><i class="fsw fsw--oak"></i>Oak</span></label>
+                <label class="opt"><input type="radio" name="cz-frame" value="black"><span><i class="fsw fsw--black"></i>Black</span></label>
+                <label class="opt"><input type="radio" name="cz-frame" value="white"><span><i class="fsw fsw--white"></i>White</span></label>
+              </div>
+            </fieldset>
+
+            <div class="cz__total">
+              <div>
+                <span class="eyebrow">Your setup</span>
+                <p class="cz__price" data-cz-price>€0.00</p>
+                <p class="cz__sum" data-cz-sum></p>
+              </div>
+              <button class="btn" type="button" data-cz-add>Add this setup to cart</button>
+            </div>
+            <p class="cz__privacy"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="3" y="7" width="10" height="7"/><path d="M5 7V5a3 3 0 0 1 6 0v2"/></svg>Wall photos stay on your device. Nothing is uploaded.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" aria-labelledby="wholesale-title">
+      <div class="band" data-reveal>
+        <h2 class="h2" id="wholesale-title">Furnishing an office, café or holiday let? <em>Let’s talk wholesale.</em></h2>
+        <a class="btn" href="about.html?subject=wholesale#contact">Enquire about wholesale <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="site-footer"></footer>
+</body>
+</html>
